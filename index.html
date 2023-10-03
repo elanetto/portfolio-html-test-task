@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anette's Portfolio</title>
     <script src="https://kit.fontawesome.com/cfcc846d5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <section>
-            Anette's Portfolio
+            Anette's Portfolio <i class="fa fa-leaf"></i>
         </section>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="" class="active">Home</a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
+        <hr>
     </header>
     <main>
         <section>
@@ -28,9 +30,82 @@
                 Welcome to my poerfolio. Feel free to look around.
             </p>
         </section>
+        <hr>
+        <section class="blog">
+            <article>
+                <h2>
+                    Latest news
+                </h2>
+                <img src="img/snailmail-sticker.jpeg" alt="">
+                <p>
+                    I am currently working on some new sticker designs.
+                    Have a look at my <a href="https://www.etsy.com/shop/elanettoDesign">Etsy Shop</a>, which I am slowly building as a hobby.
+                </p>
+            </article>
+            <article>
+                <h2>
+                    Latest WTF
+                </h2>
+                <img src="img/github-contribution.png" alt="">
+                <p>
+                    I have pushed updates to my GitHub project <a href="https://github.com/elanetto/Guitar-Kings/blob/Flex-version/index.html" target="blank">Guitar-Kings</a> every day for several days.
+                    However, GitHub has NOT updated my contributions-list on <a href="https://github.com/elanetto" target="blank">my profile</a>.
+                    According to my GitHub profile, I made zero contributions on the 30th of September, the 1st of October and the 2nd of October. This is not accurate.
+                </p>
+                <p>
+                    My hypothesis is that GitHub does not see contributions to other branches than the 
+                    MAIN branch as a contribution at all.
+                    I had no idea this was a thing. The more you know!
+                </p>
+            </article>
+        </section>
+        <hr>
+        <section class="Latest-portfolio">
+            <h2>Latest added to the portfolio</h2>
+            <section class="portfolio-row">
+                <section class="portfolio-item">
+                    <a href="">
+                        <img src="img/tea-time-stickersheet.jpeg" alt="">
+                        <p class="Description">
+                            Tea Time Stickersheet
+                        </p>
+                    </a>
+                    <p>
+                        Lover of tea? Look no further!
+                    </p>
+                </section>
+                <section class="portfolio-item">
+                    <a href="">
+                        <img src="img/coffee-stickersheet.jpeg" alt="">
+                        <p class="Description">
+                            Coffee Stickersheet
+                        </p>
+                    </a>
+                    <p>
+                        More coffeine to the people!
+                    </p>
+                </section>
+                <section class="portfolio-item">
+                    <a href="">
+                        <img src="img/plants-sticker-sheet.jpeg" alt="">
+                        <p class="Description">
+                            Plants Stickersheet
+                        </p>
+                    </a>
+                    <p>
+                        Plants! Plants! Plants!
+                    </p>
+                </section>
+            </section>
+            <hr>
+        </section>
     </main>
     <footer>
         Copyright &copy;
+        <p class="social">
+            <a href="https://www.instagram.com/elanetto.design/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+            <a href="https://www.linkedin.com/in/anettetherese/" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </p>
     </footer>
 </body>
 </html>

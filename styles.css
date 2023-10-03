@@ -1,0 +1,63 @@
+main, header {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7cae91;
+}
+
+.portfolio-row img {
+    max-width: 300px;
+}
+
+.portfolio-row {
+    display: flex;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+.active {
+    background-color: #7cae91;
+    color: #FFF;
+}
+
+footer {
+    background-color: #7cae91;
+    padding-left: 250px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color:#FFF;
+    text-decoration-color: #FFF;
+}
+
+.portfolio-item {
+    padding-right: 50px;
+}
+
+.blog img {
+    max-width: 650px;
+}
+
+.social {
+    color: #FFF;
+    text-decoration-style: none;
+    font-size: larger;
+}
